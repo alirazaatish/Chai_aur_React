@@ -4,4 +4,11 @@ function Chai(){
     )
 }
 
-export default Chai
+function Creatdiv(){
+    return(
+        <div>
+            <h1>Custom React!</h1>
+        </div>
+    )
+}
+export {Chai, Creatdiv};
