@@ -11,7 +11,9 @@ function App() {
     console.log("Value is added!", counterValue);
     // counterValue+=1
     if(counterValue<20){
-      setCounterValue(counterValue+1);
+      setCounterValue((prevCountr)=> prevCountr+1);
+      setCounterValue((prevCounter)=> prevCounter+1);
+
     }
   }
 
