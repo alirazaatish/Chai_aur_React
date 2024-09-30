@@ -1,0 +1,30 @@
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.userDetails{
+    border: 2px solid black;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userFormDetails{
+    /* margin: 5px; */
+}
+
+.inputFeild{
+    margin-bottom: 10px;
+}
+
+.inputFeild label{
+    display: block;
+    font-size: 20px;
+}
+
+.inputFeild input{
+    font-size: 20px;
+}
