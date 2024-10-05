@@ -1,6 +1,11 @@
 import { useState } from 'react'
+import Demo from './components/Demo'
+import MyForm from './components/MyForm'
 import Form from './components/Form'
 import PropsVsState from './components/PropsVsState'
+import Parent from './components/PropsMethod'
+import ListRendring from './components/ListRendring'
+import Todo  from './components/Todo'
 import './App.css'
 
 function App() {
@@ -8,8 +13,13 @@ function App() {
 
   return (
     <>
+    {/* <Demo /> */}
+    <MyForm />
     {/* <Form/> */}
-    <PropsVsState/>
+    {/* <PropsVsState/> */}
+    {/* <Parent name="ALi" rollNo="1234" /> */}
+    {/* <ListRendring /> */}
+    {/* <Todo /> */}
     </>
   )
 }
