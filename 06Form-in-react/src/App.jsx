@@ -6,6 +6,7 @@ import PropsVsState from './components/PropsVsState'
 import Parent from './components/PropsMethod'
 import ListRendring from './components/ListRendring'
 import Todo  from './components/Todo'
+import DataProvider from './components/useContext/context'
 import './App.css'
 
 function App() {
@@ -13,8 +14,9 @@ function App() {
 
   return (
     <>
+    <DataProvider />
     {/* <Demo /> */}
-    <MyForm />
+    {/* <MyForm /> */}
     {/* <Form/> */}
     {/* <PropsVsState/> */}
     {/* <Parent name="ALi" rollNo="1234" /> */}
